@@ -11,17 +11,5 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val button = findViewById<Button>(R.id.button_click)
-        val infoText = findViewById<TextView>(R.id.info_text)
-        val inputText = findViewById<EditText>(R.id.input_field)
-
-        button.setOnClickListener {
-            val newText = inputText.text.toString()
-            infoText.text = newText
-            inputText.text.clear()
-
-            Toast.makeText(this, "Done", Toast.LENGTH_SHORT).show()
-        }
     }
 }
