@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">My application</string>
     <string name="button_text_click">Click!!!!</string>
+    <string name="HOME1">HOME 1</string>
+    <string name="hw1_load_image">Load Image</string>
+    <string name="open_shared_canvas">open shared canvas</string>
 </resources>

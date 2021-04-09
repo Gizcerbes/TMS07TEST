@@ -1,4 +1,4 @@
-package com.uogames.lesson17
+package com.uogames.longProject
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.uogames.lesson17
+package com.uogames.longProject
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
