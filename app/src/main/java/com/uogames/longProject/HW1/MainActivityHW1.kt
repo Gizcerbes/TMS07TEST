@@ -20,7 +20,9 @@ class MainActivityHW1 : AppCompatActivity() {
         val openCanvas = findViewById<Button>(R.id.hw1_canvas)
 
         loadButton.setOnClickListener {
-            Glide.with(this).load(myUrl.text.toString().orEmpty()).into(imageView)
+            Glide.with(this)
+                .load(myUrl.text.toString().orEmpty())
+                .into(imageView)
         }
         openCanvas.setOnClickListener {
             startActivity(Intent(this, SecondActivityHW1::class.java))

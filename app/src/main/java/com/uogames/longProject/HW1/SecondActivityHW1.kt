@@ -38,10 +38,6 @@ class SecondActivityHW1 : AppCompatActivity() {
                 }, { })
             queue.add(stringRequest)
         }
-
-//        loadButton.setOnClickListener {
-//            Glide.with(this).load(myUrl.text.toString().orEmpty()).into(imageView)
-//        }
     }
 
     fun loadImage(view: ImageView) {
