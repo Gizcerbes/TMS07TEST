@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    tools:context=".HW1.SecondActivityHW1">
+
+    <ImageView
+        android:id="@+id/hw1_my_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#939191"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        android:text="@string/hw1_send_command"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/hw1_edit_pixel" />
+
+    <EditText
+        android:id="@+id/hw1_edit_pixel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        android:text="@string/hw1_crr_0_0_crr_1_0_color_rgb_0_0_0"
+        app:layout_constraintBottom_toTopOf="@id/hw1_set_pixel" />
+
+    <Button
+        android:id="@+id/hw1_set_pixel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/hw1_set_pixel"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">My application</string>
     <string name="button_text_click">Click!!!!</string>
+    <string name="HOME1">HOME 1</string>
+    <string name="hw1_load_image">Load Image</string>
+    <string name="open_shared_canvas">open shared canvas</string>
+    <string name="hw1_set_pixel">SET PIXEL</string>
+    <string name="hw1_send_command">SEND GET COMMAND</string>
+    <string name="hw1_crr_0_0_crr_1_0_color_rgb_0_0_0" translatable="false">crr[0]=0&amp;crr[1]=0&amp;color=rgb(0,0,0)</string>
 </resources>
