@@ -13,8 +13,9 @@ class MainActivityHW2 : AppCompatActivity() {
 
         findViewById<Button>(R.id.hw2_open_flags).setOnClickListener { startActivity(Intent(this, FlagsActivityHW2::class.java))}
 
-        findViewById<Button>(R.id.hw2_open_animation).setOnClickListener { startActivity(Intent(this, AnimationActivityHW2::class.java)) }
+        findViewById<Button>(R.id.hw2_open_flags_v2).setOnClickListener { startActivity(Intent(this, FlagsV2ActivityHW2::class.java)) }
 
+        findViewById<Button>(R.id.hw2_open_animation).setOnClickListener { startActivity(Intent(this, AnimationActivityHW2::class.java)) }
 
     }
 }

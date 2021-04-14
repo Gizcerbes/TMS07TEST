@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lesson17">
-        <activity android:name=".HW2.AnimationActivityHW2"/>
+        <activity android:name=".HW2.FlagsV2ActivityHW2"></activity>
+        <activity android:name=".HW2.AnimationActivityHW2" />
         <activity android:name=".HW2.FlagsActivityHW2" />
         <activity android:name=".HW2.MainActivityHW2" />
         <activity android:name=".HW1.SecondActivityHW1" />

@@ -12,8 +12,16 @@
         android:id="@+id/hw2_open_flags"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/hw2_open_animation"
+        app:layout_constraintBottom_toTopOf="@id/hw2_open_flags_v2"
         android:text="@string/hw2_open_flags"
+        />
+
+    <Button
+        android:id="@+id/hw2_open_flags_v2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/hw2_open_animation"
+        android:text="@string/hw2_open_flags_v2"
         />
     <Button
         android:id="@+id/hw2_open_animation"

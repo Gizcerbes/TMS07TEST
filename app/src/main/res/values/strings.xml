@@ -22,4 +22,5 @@
     <string name="hw2_name_latvia">Latvia</string>
     <string name="hw2_name_denmark">Denmark</string>
     <string name="hw2_name_spain">Spain</string>
+    <string name="hw2_open_flags_v2">open flags v2</string>
 </resources>
