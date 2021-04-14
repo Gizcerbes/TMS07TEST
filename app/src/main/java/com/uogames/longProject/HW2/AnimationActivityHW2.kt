@@ -25,7 +25,6 @@ class AnimationActivityHW2 : AppCompatActivity() {
 
         GlobalScope.launch {
             start = true
-            var i = 0;
             while (start) {
                 val img = queue.poll()
                 img?.let {
