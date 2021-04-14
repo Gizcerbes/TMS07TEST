@@ -16,4 +16,10 @@
     <string name="Link_flag_latvia">https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/1920px-Flag_of_Latvia.svg.png</string>
     <string name="Link_flag_denmark">https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1280px-Flag_of_Denmark.svg.png</string>
     <string name="Link_flag_spain">https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png</string>
+    <string name="hw2_name_armenia">Armenia</string>
+    <string name="hw2_name_austria">Austria</string>
+    <string name="hw2_name_belgium">Belgium</string>
+    <string name="hw2_name_latvia">Latvia</string>
+    <string name="hw2_name_denmark">Denmark</string>
+    <string name="hw2_name_spain">Spain</string>
 </resources>

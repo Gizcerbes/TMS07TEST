@@ -3,52 +3,106 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/standard_padding"
-    tools:context=".HW2.FlagsActivityHW2"
-    android:background="@color/grey">
+    android:background="@color/grey"
+    tools:context=".HW2.FlagsActivityHW2">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
+        android:padding="@dimen/standard_padding">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/hw2_name_armenia"
+                android:textSize="@dimen/hw2_text_size" />
 
             <ImageView
                 android:id="@+id/hw2_flag_armenia"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/scroll_margin"
+                android:layout_weight="1"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/hw2_name_austria"
+                android:textSize="@dimen/hw2_text_size" />
 
             <ImageView
                 android:id="@+id/hw2_flag_austria"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/scroll_margin"
+                android:adjustViewBounds="true"
 
                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/hw2_name_belgium"
+                android:textSize="@dimen/hw2_text_size" />
 
             <ImageView
                 android:id="@+id/hw2_flag_belgium"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/scroll_margin"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/hw2_name_latvia"
+                android:textSize="@dimen/hw2_text_size" />
 
             <ImageView
                 android:id="@+id/hw2_flag_latvia"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/scroll_margin"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/hw2_name_denmark"
+                android:textSize="@dimen/hw2_text_size" />
 
             <ImageView
                 android:id="@+id/hw2_flag_denmark"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/scroll_margin"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/hw2_name_spain"
+                android:textSize="@dimen/hw2_text_size" />
 
             <ImageView
                 android:id="@+id/hw2_flag_spain"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/scroll_margin"
+                android:adjustViewBounds="true" />
 
 
         </LinearLayout>
