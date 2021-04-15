@@ -12,7 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lesson17">
-        <activity android:name=".HW1.SecondActivityHW1"></activity>
+        <activity android:name=".HW2.FlagsV2ActivityHW2"></activity>
+        <activity android:name=".HW2.AnimationActivityHW2" />
+        <activity android:name=".HW2.FlagsActivityHW2" />
+        <activity android:name=".HW2.MainActivityHW2" />
+        <activity android:name=".HW1.SecondActivityHW1" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +26,5 @@
         </activity>
         <activity android:name=".HW1.MainActivityHW1" />
     </application>
-
 
 </manifest>
