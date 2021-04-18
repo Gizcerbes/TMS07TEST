@@ -32,7 +32,7 @@ class RegionalSowing(
                     delay(1000)
 
                     val i = numberOfStaff / 2 + random.nextInt(numberOfStaff / 2)
-                    if ((i + progress) < 1000) progress += numberOfStaff / 2 + random.nextInt(numberOfStaff / 2 )
+                    if ((i + progress) < 1000) progress += i
                     else progress = 1000
 
                     cabbage.postValue(progress)
