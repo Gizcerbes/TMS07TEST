@@ -82,7 +82,7 @@ class MainActivityHW3 : AppCompatActivity() {
         viewModel.endSowingMinsk.observe(this) {
             if (it) {
                 region.text = region.text.toString() + " #" + ++rating
-                region.setBackgroundColor(Color.GREEN)
+                region.setBackgroundColor(getColor(R.color.dark_green))
             }
         }
     }
@@ -121,7 +121,7 @@ class MainActivityHW3 : AppCompatActivity() {
         viewModel.endSowingViciebsk.observe(this) {
             if (it) {
                 region.text = region.text.toString() + " #" + ++rating
-                region.setBackgroundColor(Color.GREEN)
+                region.setBackgroundColor(getColor(R.color.dark_green))
             }
         }
     }
@@ -160,7 +160,7 @@ class MainActivityHW3 : AppCompatActivity() {
         viewModel.endSowingHrodna.observe(this) {
             if (it) {
                 region.text = region.text.toString() + " #" + ++rating
-                region.setBackgroundColor(Color.GREEN)
+                region.setBackgroundColor(getColor(R.color.dark_green))
             }
         }
     }
@@ -199,7 +199,7 @@ class MainActivityHW3 : AppCompatActivity() {
         viewModel.endSowingBrest.observe(this) {
             if (it) {
                 region.text = region.text.toString() + " #" + ++rating
-                region.setBackgroundColor(Color.GREEN)
+                region.setBackgroundColor(getColor(R.color.dark_green))
             }
         }
     }
@@ -238,7 +238,7 @@ class MainActivityHW3 : AppCompatActivity() {
         viewModel.endSowingHomiel.observe(this) {
             if (it) {
                 region.text = region.text.toString() + " #" + ++rating
-                region.setBackgroundColor(Color.GREEN)
+                region.setBackgroundColor(getColor(R.color.dark_green))
             }
         }
     }
@@ -277,7 +277,7 @@ class MainActivityHW3 : AppCompatActivity() {
         viewModel.endSowingMahilo.observe(this) {
             if (it) {
                 region.text = region.text.toString() + " #" + ++rating
-                region.setBackgroundColor(Color.GREEN)
+                region.setBackgroundColor(getColor(R.color.dark_green))
             }
         }
     }
