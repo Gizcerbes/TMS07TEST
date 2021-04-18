@@ -148,16 +148,16 @@
                 android:layout_marginTop="17dp">
 
                 <TextView
-                    android:id="@+id/hw3_region_Vitebsk"
+                    android:id="@+id/hw3_region_Viciebsk"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@color/grey"
                     android:gravity="center"
-                    android:text="@string/hw3_region_Vitebsk"
+                    android:text="@string/hw3_region_Viciebsk"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:id="@+id/hw3_crest_Vitebsk"
+                    android:id="@+id/hw3_crest_Viciebsk"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/ic_launcher_foreground"
@@ -165,102 +165,102 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/hw3_count_cereal_Vitebsk"
+                    android:id="@+id/hw3_count_cereal_Viciebsk"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_region_Vitebsk" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_region_Viciebsk" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_cereal"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Vitebsk"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_cereal_Vitebsk" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Viciebsk"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_cereal_Viciebsk" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_cereal_Vitebsk"
+                    android:id="@+id/hw3_progress_cereal_Viciebsk"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cereal_Vitebsk" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cereal_Viciebsk" />
 
 
                 <TextView
-                    android:id="@+id/hw3_count_potatoes_Vitebsk"
+                    android:id="@+id/hw3_count_potatoes_Viciebsk"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cereal_Vitebsk" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cereal_Viciebsk" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_potatoes"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Vitebsk"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_potatoes_Vitebsk" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Viciebsk"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_potatoes_Viciebsk" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_potatoes_Vitebsk"
+                    android:id="@+id/hw3_progress_potatoes_Viciebsk"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_potatoes_Vitebsk" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_potatoes_Viciebsk" />
 
 
                 <TextView
-                    android:id="@+id/hw3_count_cabbage_Vitebsk"
+                    android:id="@+id/hw3_count_cabbage_Viciebsk"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_potatoes_Vitebsk" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_potatoes_Viciebsk" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_cabbage"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Vitebsk"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_cabbage_Vitebsk" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Viciebsk"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_cabbage_Viciebsk" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_cabbage_Vitebsk"
+                    android:id="@+id/hw3_progress_cabbage_Viciebsk"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cabbage_Vitebsk" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cabbage_Viciebsk" />
 
                 <TextView
-                    android:id="@+id/hw3_count_beet_Vitebsk"
+                    android:id="@+id/hw3_count_beet_Viciebsk"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cabbage_Vitebsk" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cabbage_Viciebsk" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_cabbage"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Vitebsk"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Vitebsk" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Viciebsk"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Viciebsk" />
 
                 <ProgressBar
                     android:id="@+id/hw3_progress_beet_Vitebsk"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_beet_Vitebsk" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_beet_Viciebsk" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -271,16 +271,16 @@
                 android:layout_marginTop="17dp">
 
                 <TextView
-                    android:id="@+id/hw3_region_Grodno"
+                    android:id="@+id/hw3_region_Hrodna"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@color/grey"
                     android:gravity="center"
-                    android:text="@string/hw3_region_Grodno"
+                    android:text="@string/hw3_region_Hrodna"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:id="@+id/hw3_crest_Grodno"
+                    android:id="@+id/hw3_crest_Hrodna"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/ic_launcher_foreground"
@@ -288,102 +288,102 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/hw3_count_cereal_Grodno"
+                    android:id="@+id/hw3_count_cereal_Hrodna"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_region_Grodno" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_region_Hrodna" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_cereal"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Grodno"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_cereal_Grodno" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Hrodna"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_cereal_Hrodna" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_cereal_Grodno"
+                    android:id="@+id/hw3_progress_cereal_Hrodna"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cereal_Grodno" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cereal_Hrodna" />
 
 
                 <TextView
-                    android:id="@+id/hw3_count_potatoes_Grodno"
+                    android:id="@+id/hw3_count_potatoes_Hrodna"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cereal_Grodno" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cereal_Hrodna" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_potatoes"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Grodno"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_potatoes_Grodno" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Hrodna"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_potatoes_Hrodna" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_potatoes_Grodno"
+                    android:id="@+id/hw3_progress_potatoes_Hrodna"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_potatoes_Grodno" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_potatoes_Hrodna" />
 
 
                 <TextView
-                    android:id="@+id/hw3_count_cabbage_Grodno"
+                    android:id="@+id/hw3_count_cabbage_Hrodna"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_potatoes_Grodno" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_potatoes_Hrodna" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_cabbage"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Grodno"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_cabbage_Grodno" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Hrodna"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_cabbage_Hrodna" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_cabbage_Grodno"
+                    android:id="@+id/hw3_progress_cabbage_Hrodna"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cabbage_Grodno" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cabbage_Hrodna" />
 
                 <TextView
-                    android:id="@+id/hw3_count_beet_Grodno"
+                    android:id="@+id/hw3_count_beet_Hrodna"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cabbage_Grodno" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cabbage_Hrodna" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_cabbage"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Grodno"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Grodno" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Hrodna"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Hrodna" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_beet_Grodno"
+                    android:id="@+id/hw3_progress_beet_Hrodna"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_beet_Grodno" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_beet_Hrodna" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -517,16 +517,16 @@
                 android:layout_marginTop="17dp">
 
                 <TextView
-                    android:id="@+id/hw3_region_Gomel"
+                    android:id="@+id/hw3_region_Homiel"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@color/grey"
                     android:gravity="center"
-                    android:text="@string/hw3_region_Gomel"
+                    android:text="@string/hw3_region_Homiel"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:id="@+id/hw3_crest_Gomel"
+                    android:id="@+id/hw3_crest_Homiel"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/ic_launcher_foreground"
@@ -534,102 +534,102 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/hw3_count_cereal_Gomel"
+                    android:id="@+id/hw3_count_cereal_Homiel"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_region_Gomel" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_region_Homiel" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_cereal"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Gomel"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_cereal_Gomel" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Homiel"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_cereal_Homiel" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_cereal_Gomel"
+                    android:id="@+id/hw3_progress_cereal_Homiel"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cereal_Gomel" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cereal_Homiel" />
 
 
                 <TextView
-                    android:id="@+id/hw3_count_potatoes_Gomel"
+                    android:id="@+id/hw3_count_potatoes_Homiel"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cereal_Gomel" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cereal_Homiel" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_potatoes"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Gomel"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_potatoes_Gomel" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Homiel"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_potatoes_Homiel" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_potatoes_Gomel"
+                    android:id="@+id/hw3_progress_potatoes_Homiel"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_potatoes_Gomel" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_potatoes_Homiel" />
 
 
                 <TextView
-                    android:id="@+id/hw3_count_cabbage_Gomel"
+                    android:id="@+id/hw3_count_cabbage_Homiel"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_potatoes_Gomel" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_potatoes_Homiel" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_cabbage"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Gomel"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_cabbage_Gomel" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Homiel"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_cabbage_Homiel" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_cabbage_Gomel"
+                    android:id="@+id/hw3_progress_cabbage_Homiel"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cabbage_Gomel" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cabbage_Homiel" />
 
                 <TextView
-                    android:id="@+id/hw3_count_beet_Gomel"
+                    android:id="@+id/hw3_count_beet_Homiel"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cabbage_Gomel" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cabbage_Homiel" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_cabbage"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Gomel"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Gomel" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Homiel"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Homiel" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_beet_Gomel"
+                    android:id="@+id/hw3_progress_beet_Homiel"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_beet_Gomel" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_beet_Homiel" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -640,16 +640,16 @@
                 android:layout_marginTop="17dp">
 
                 <TextView
-                    android:id="@+id/hw3_region_Mogilev"
+                    android:id="@+id/hw3_region_Mahilo"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@color/grey"
                     android:gravity="center"
-                    android:text="@string/hw3_region_Mogilev"
+                    android:text="@string/hw3_region_Mahilo"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:id="@+id/hw3_crest_Mogilev"
+                    android:id="@+id/hw3_crest_Mahilo"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/ic_launcher_foreground"
@@ -657,102 +657,102 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/hw3_count_cereal_Mogilev"
+                    android:id="@+id/hw3_count_cereal_Mahilo"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_region_Mogilev" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_region_Mahilo" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_cereal"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Mogilev"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_cereal_Mogilev" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Mahilo"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_cereal_Mahilo" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_cereal_Mogilev"
+                    android:id="@+id/hw3_progress_cereal_Mahilo"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cereal_Mogilev" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cereal_Mahilo" />
 
 
                 <TextView
-                    android:id="@+id/hw3_count_potatoes_Mogilev"
+                    android:id="@+id/hw3_count_potatoes_Mahilo"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cereal_Mogilev" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cereal_Mahilo" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_potatoes"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Mogilev"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_potatoes_Mogilev" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Mahilo"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_potatoes_Mahilo" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_potatoes_Mogilev"
+                    android:id="@+id/hw3_progress_potatoes_Mahilo"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_potatoes_Mogilev" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_potatoes_Mahilo" />
 
 
                 <TextView
-                    android:id="@+id/hw3_count_cabbage_Mogilev"
+                    android:id="@+id/hw3_count_cabbage_Mahilo"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_potatoes_Mogilev" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_potatoes_Mahilo" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_cabbage"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Mogilev"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_cabbage_Mogilev" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Mahilo"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_cabbage_Mahilo" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_cabbage_Mogilev"
+                    android:id="@+id/hw3_progress_cabbage_Mahilo"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cabbage_Mogilev" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_cabbage_Mahilo" />
 
                 <TextView
-                    android:id="@+id/hw3_count_beet_Mogilev"
+                    android:id="@+id/hw3_count_beet_Mahilo"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="7dp"
                     android:gravity="end"
                     android:text="@string/hw3_start_progress"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cabbage_Mogilev" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_progress_cabbage_Mahilo" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
                     android:text="@string/hw3_crop_cabbage"
-                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Mogilev"
-                    app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Mogilev" />
+                    app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Mahilo"
+                    app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Mahilo" />
 
                 <ProgressBar
-                    android:id="@+id/hw3_progress_beet_Mogilev"
+                    android:id="@+id/hw3_progress_beet_Mahilo"
                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_constraintTop_toBottomOf="@id/hw3_count_beet_Mogilev" />
+                    app:layout_constraintTop_toBottomOf="@id/hw3_count_beet_Mahilo" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
