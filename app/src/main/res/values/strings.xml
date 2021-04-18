@@ -7,4 +7,20 @@
     <string name="hw1_set_pixel">SET PIXEL</string>
     <string name="hw1_send_command">SEND GET COMMAND</string>
     <string name="hw1_crr_0_0_crr_1_0_color_rgb_0_0_0" translatable="false">crr[0]=0&amp;crr[1]=0&amp;color=rgb(0,0,0)</string>
+    <string name="hw2_open_flags">open flags</string>
+    <string name="hw2_open_animation">open animation</string>
+    <string name="HOME2">HOME 2</string>
+    <string name="Link_flag_armenia">https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/1920px-Flag_of_Armenia.svg.png</string>
+    <string name="Link_flag_austria">https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/1280px-Flag_of_Austria.svg.png</string>
+    <string name="Link_flag_belgium">https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/1280px-Flag_of_Belgium_%28civil%29.svg.png</string>
+    <string name="Link_flag_latvia">https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/1920px-Flag_of_Latvia.svg.png</string>
+    <string name="Link_flag_denmark">https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1280px-Flag_of_Denmark.svg.png</string>
+    <string name="Link_flag_spain">https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png</string>
+    <string name="hw2_name_armenia">Armenia</string>
+    <string name="hw2_name_austria">Austria</string>
+    <string name="hw2_name_belgium">Belgium</string>
+    <string name="hw2_name_latvia">Latvia</string>
+    <string name="hw2_name_denmark">Denmark</string>
+    <string name="hw2_name_spain">Spain</string>
+    <string name="hw2_open_flags_v2">open flags v2</string>
 </resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HW2.MainActivityHW2"
+    android:padding="@dimen/standard_padding"
+    >
+
+    <Button
+        android:id="@+id/hw2_open_flags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/hw2_open_flags_v2"
+        android:text="@string/hw2_open_flags"
+        />
+
+    <Button
+        android:id="@+id/hw2_open_flags_v2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/hw2_open_animation"
+        android:text="@string/hw2_open_flags_v2"
+        />
+    <Button
+        android:id="@+id/hw2_open_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/hw2_open_animation"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
