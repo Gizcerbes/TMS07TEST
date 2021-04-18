@@ -10,8 +10,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginEnd="-7dp"
-        >
+        android:layout_marginEnd="-7dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,6 +35,7 @@
                     android:id="@+id/hw3_crest_Minsk"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:padding="7dp"
                     android:src="@drawable/ic_launcher_foreground"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -128,7 +128,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
-                    android:text="@string/hw3_crop_cabbage"
+                    android:text="@string/hw3_crop_beet"
                     app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Minsk"
                     app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Minsk" />
 
@@ -160,6 +160,7 @@
                     android:id="@+id/hw3_crest_Viciebsk"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:padding="7dp"
                     android:src="@drawable/ic_launcher_foreground"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -251,7 +252,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
-                    android:text="@string/hw3_crop_cabbage"
+                    android:text="@string/hw3_crop_beet"
                     app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Viciebsk"
                     app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Viciebsk" />
 
@@ -283,6 +284,7 @@
                     android:id="@+id/hw3_crest_Hrodna"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:padding="7dp"
                     android:src="@drawable/ic_launcher_foreground"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -374,7 +376,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
-                    android:text="@string/hw3_crop_cabbage"
+                    android:text="@string/hw3_crop_beet"
                     app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Hrodna"
                     app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Hrodna" />
 
@@ -406,6 +408,7 @@
                     android:id="@+id/hw3_crest_Brest"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:padding="7dp"
                     android:src="@drawable/ic_launcher_foreground"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -497,7 +500,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
-                    android:text="@string/hw3_crop_cabbage"
+                    android:text="@string/hw3_crop_beet"
                     app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Brest"
                     app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Brest" />
 
@@ -529,6 +532,7 @@
                     android:id="@+id/hw3_crest_Homiel"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:padding="7dp"
                     android:src="@drawable/ic_launcher_foreground"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -620,7 +624,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
-                    android:text="@string/hw3_crop_cabbage"
+                    android:text="@string/hw3_crop_beet"
                     app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Homiel"
                     app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Homiel" />
 
@@ -652,6 +656,7 @@
                     android:id="@+id/hw3_crest_Mahilo"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:padding="7dp"
                     android:src="@drawable/ic_launcher_foreground"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -743,7 +748,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start"
-                    android:text="@string/hw3_crop_cabbage"
+                    android:text="@string/hw3_crop_beet"
                     app:layout_constraintLeft_toLeftOf="@id/hw3_count_cereal_Mahilo"
                     app:layout_constraintTop_toTopOf="@id/hw3_count_beet_Mahilo" />
 
