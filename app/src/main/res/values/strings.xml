@@ -2,6 +2,8 @@
     <string name="app_name">My application</string>
     <string name="button_text_click">Click!!!!</string>
     <string name="HOME1">HOME 1</string>
+    <string name="HOME2">HOME 2</string>
+    <string name="HOME3">HOME 3</string>
     <string name="hw1_load_image">Load Image</string>
     <string name="open_shared_canvas">open shared canvas</string>
     <string name="hw1_set_pixel">SET PIXEL</string>
@@ -9,7 +11,6 @@
     <string name="hw1_crr_0_0_crr_1_0_color_rgb_0_0_0" translatable="false">crr[0]=0&amp;crr[1]=0&amp;color=rgb(0,0,0)</string>
     <string name="hw2_open_flags">open flags</string>
     <string name="hw2_open_animation">open animation</string>
-    <string name="HOME2">HOME 2</string>
     <string name="Link_flag_armenia">https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/1920px-Flag_of_Armenia.svg.png</string>
     <string name="Link_flag_austria">https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/1280px-Flag_of_Austria.svg.png</string>
     <string name="Link_flag_belgium">https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/1280px-Flag_of_Belgium_%28civil%29.svg.png</string>
@@ -23,4 +24,24 @@
     <string name="hw2_name_denmark">Denmark</string>
     <string name="hw2_name_spain">Spain</string>
     <string name="hw2_open_flags_v2">open flags v2</string>
+    <string name="hw3_region_Minsk">Минская область</string>
+    <string name="hw3_region_Viciebsk">Витебская область</string>
+    <string name="hw3_region_Hrodna">Гродненская область</string>
+    <string name="hw3_region_Brest">Брестская область</string>
+    <string name="hw3_region_Homiel">Гомельская область</string>
+    <string name="hw3_region_Mahilo">Могилевская область</string>
+    <string name="hw3_crop_cereal">Зерновые</string>
+    <string name="hw3_crop_potatoes">Картофель</string>
+    <string name="hw3_crop_cabbage">Капуста</string>
+    <string name="hw3_crop_beet">Свекла</string>
+    <string name="hw3_start_progress">0/1000</string>
+    <string name="Link_crest_Minsk">https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Coat_of_arms_of_Minsk.svg/800px-Coat_of_arms_of_Minsk.svg.png</string>
+    <string name="Link_crest_Viciebsk">https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Coat_of_Arms_of_Viciebsk%2C_Belarus.svg/1024px-Coat_of_Arms_of_Viciebsk%2C_Belarus.svg.png</string>
+    <string name="Link_crest_Hrodna">https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Coat_of_arms_of_Hrodna.svg/800px-Coat_of_arms_of_Hrodna.svg.png</string>
+    <string name="Link_crest_Brest">https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Coat_of_Arms_of_Brest%2C_Belarus.svg/800px-Coat_of_Arms_of_Brest%2C_Belarus.svg.png</string>
+    <string name="Link_crest_Homiel">https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Coat_of_Arms_of_Homiel%2C_Belarus.svg/800px-Coat_of_Arms_of_Homiel%2C_Belarus.svg.png</string>
+    <string name="Link_crest_Mahilo">https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Coat_of_Arms_of_Mahilo%C5%AD.svg/800px-Coat_of_Arms_of_Mahilo%C5%AD.svg.png</string>
+
+
+
 </resources>

@@ -6,10 +6,7 @@ import android.view.Menu
 import android.widget.ImageView
 import com.squareup.picasso.Picasso
 import com.uogames.longProject.R
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.*
 import java.util.*
 
 class AnimationActivityHW2 : AppCompatActivity() {
@@ -23,15 +20,11 @@ class AnimationActivityHW2 : AppCompatActivity() {
         val queue: Queue<Int> = getImageQueue()
         fetchQueue(queue)
 
-        GlobalScope.launch {
+        CoroutineScope(Dispatchers.Main).launch {
             start = true
             while (start) {
                 val img = queue.poll()
-                img?.let {
-                    launch(Dispatchers.Main) {
-                        Picasso.get().load(it).into(imageView)
-                    }
-                }
+                img?.let { Picasso.get().load(it).into(imageView) }
                 delay(1000)
                 queue.add(img)
             }
