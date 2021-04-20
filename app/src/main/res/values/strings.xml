@@ -4,6 +4,7 @@
     <string name="HOME1">HOME 1</string>
     <string name="HOME2">HOME 2</string>
     <string name="HOME3">HOME 3</string>
+    <string name="HOME4">HOME 4</string>
     <string name="hw1_load_image">Load Image</string>
     <string name="open_shared_canvas">open shared canvas</string>
     <string name="hw1_set_pixel">SET PIXEL</string>
@@ -41,7 +42,23 @@
     <string name="Link_crest_Brest">https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Coat_of_Arms_of_Brest%2C_Belarus.svg/800px-Coat_of_Arms_of_Brest%2C_Belarus.svg.png</string>
     <string name="Link_crest_Homiel">https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Coat_of_Arms_of_Homiel%2C_Belarus.svg/800px-Coat_of_Arms_of_Homiel%2C_Belarus.svg.png</string>
     <string name="Link_crest_Mahilo">https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Coat_of_Arms_of_Mahilo%C5%AD.svg/800px-Coat_of_Arms_of_Mahilo%C5%AD.svg.png</string>
-
+    <string name="hw4_add_snowdrop">add snowdrop</string>
+    <string name="hw4_watch_collection">watch collection</string>
+    <string name="kind">Kind</string>
+    <string name="url">Url</string>
+    <string name="description">Description</string>
+    <string name="hw4_back">back</string>
+    <string name="error_empty">Can\'t be empty</string>
+    <string name="empty_text">...</string>
+    <string name="сommon_snowdrop">Подснежник обыкновенный</string>
+    <string name="link_common_snowdrop">https://rozisad.ru/wp-content/uploads/2019/02/galanthus-nivalis.jpg</string>
+    <string name="info_common_snowdrop">произрастает комфортно в зонах с 3 по 7. Высота растения – 15 — 30 см. Зацветает он в феврале. Цветок белый с зеленой V-образной каймой на внутренних лепестках. Предпочитает солнце или легкую полутень. Обладает ароматом с нотками меда..</string>
+    <string name="giant_snowdrop">Гигантский подснежник</string>
+    <string name="link_giant_snowdrop">https://rozisad.ru/wp-content/uploads/2019/02/galanthus-elwesii-giant.jpg</string>
+    <string name="info_giant_snowdrop">растет в зонах с 4 по 7. Высота – 15 — 30 см. Цветет с февраля по март. Окраска – белая, внутренние лепестки имеют v-образную зеленую кайму. Участок для посадки – солнечный или с легкой полутенью.</string>
+    <string name="galanthus_plicatus">Подснежник крымский</string>
+    <string name="link_galanthus_plicatus">https://rozisad.ru/wp-content/uploads/2019/02/galanthus-plicatus-crimean.jpg</string>
+    <string name="info_galanthus_plicatus">растет в зонах с 3 по 8. Высота – от 17 см до 30 см. Время цветения – с февраля по март. Верхние лепестки – белые, внутренние имеют зеленую кайму в виде сердца. Солнце или небольшая полутень – оптимальное место для посадки.</string>
 
 
 </resources>
