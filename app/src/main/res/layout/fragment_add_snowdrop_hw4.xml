@@ -42,7 +42,7 @@
         android:layout_marginBottom="@dimen/standard_margin"
         android:hint="@string/description"
         android:inputType="textMultiLine"
-        android:lines="6"
+        android:lines="1"
         android:maxLines="6"
         android:scrollbars="vertical"
         app:layout_constraintBottom_toTopOf="@id/hw4_add_snowdrop_btn" />
