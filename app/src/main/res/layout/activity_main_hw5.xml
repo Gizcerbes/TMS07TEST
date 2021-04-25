@@ -13,19 +13,20 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
         android:text="@string/check_in"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/login"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/scroll_margin"
         android:hint="@string/hw5_login"
-        app:layout_constraintTop_toBottomOf="@id/text_view_0"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:endIconMode="clear_text"
+        app:helperText="@string/hw_enter_login"
+        app:layout_constraintTop_toBottomOf="@id/text_view_0"
         app:startIconDrawable="@drawable/ic_person">
+
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -34,34 +35,33 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/scroll_margin"
         android:hint="@string/password"
-        app:layout_constraintTop_toBottomOf="@id/login"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:endIconMode="password_toggle"
-        app:startIconDrawable="@drawable/ic_lock_open">
+        app:layout_constraintTop_toBottomOf="@id/login"
+        app:startIconDrawable="@drawable/ic_lock_open"
+        app:helperText="@string/hw5_enter_password">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            />
+            android:inputType="textPassword" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:layout_marginTop="@dimen/standard_padding"
-        android:id="@+id/textButton"
+        android:id="@+id/registration"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_padding"
         android:text="@string/registration"
-        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-        app:layout_constraintTop_toBottomOf="@id/password"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        />
+        app:layout_constraintTop_toBottomOf="@id/password" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
