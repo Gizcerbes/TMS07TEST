@@ -4,6 +4,8 @@
     <string name="HOME1">HOME 1</string>
     <string name="HOME2">HOME 2</string>
     <string name="HOME3">HOME 3</string>
+    <string name="HOME4">HOME 4</string>
+    <string name="HOME5">HOME 5</string>
     <string name="hw1_load_image">Load Image</string>
     <string name="open_shared_canvas">open shared canvas</string>
     <string name="hw1_set_pixel">SET PIXEL</string>
@@ -41,7 +43,10 @@
     <string name="Link_crest_Brest">https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Coat_of_Arms_of_Brest%2C_Belarus.svg/800px-Coat_of_Arms_of_Brest%2C_Belarus.svg.png</string>
     <string name="Link_crest_Homiel">https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Coat_of_Arms_of_Homiel%2C_Belarus.svg/800px-Coat_of_Arms_of_Homiel%2C_Belarus.svg.png</string>
     <string name="Link_crest_Mahilo">https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Coat_of_Arms_of_Mahilo%C5%AD.svg/800px-Coat_of_Arms_of_Mahilo%C5%AD.svg.png</string>
-
+    <string name="hw5_login">Login</string>
+    <string name="check_in">CHECK IN</string>
+    <string name="registration">registration</string>
+    <string name="password">Password</string>
 
 
 </resources>
