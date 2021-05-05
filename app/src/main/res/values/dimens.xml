@@ -3,4 +3,5 @@
     <dimen name="standard_padding">16dp</dimen>
     <dimen name="scroll_margin">16dp</dimen>
     <dimen name="hw2_text_size">24sp</dimen>
+    <dimen name="standart_text">20sp</dimen>
 </resources>

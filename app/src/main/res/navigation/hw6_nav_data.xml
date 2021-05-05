@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/hw6_nav_data">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hw6_nav_data"
+    app:startDestination="@id/first_fragment_HW6">
 
+
+    <fragment
+        android:id="@+id/first_fragment_HW6"
+        android:name="com.uogames.longProject.HW6.FirstFragmentHW6"
+        android:label="FirstFragmentHW6"
+        tools:layout="@layout/fragment_first_hw6">
+        <action
+            android:id="@+id/show_second_fragment"
+            app:destination="@id/secondFragmentHW6"
+            app:enterAnim="@anim/show"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/hide" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/secondFragmentHW6"
+        android:name="com.uogames.longProject.HW6.SecondFragmentHW6"
+        android:label="SecondFragmentHW6" />
 </navigation>

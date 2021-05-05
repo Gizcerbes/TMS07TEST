@@ -42,6 +42,16 @@
     <string name="Link_crest_Brest">https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Coat_of_Arms_of_Brest%2C_Belarus.svg/800px-Coat_of_Arms_of_Brest%2C_Belarus.svg.png</string>
     <string name="Link_crest_Homiel">https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Coat_of_Arms_of_Homiel%2C_Belarus.svg/800px-Coat_of_Arms_of_Homiel%2C_Belarus.svg.png</string>
     <string name="Link_crest_Mahilo">https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Coat_of_Arms_of_Mahilo%C5%AD.svg/800px-Coat_of_Arms_of_Mahilo%C5%AD.svg.png</string>
-
-
+    <string name="link_nine_may">https://a.d-cd.net/7UAAAgEvw-A-960.jpg</string>
+    <string name="link_victory_day">https://www.zastavki.com/pictures/600x1024/2014/Holidays___May_9_Wallpaper_in_the_May_9_Victory_Day_078761_28.jpg</string>
+    <string name="text_victory">
+        <p>Пусть небо ваше чистым будет,\n</p>
+        <p>Не гаснет радости звезда,\n</p>
+        <p>И грохот танков и орудий\n</p>
+        <p>Уйдет из жизни навсегда.\n</p>
+        <p>Теченью лет не прекословя,\n</p>
+        <p>Мы вам желаем всей душой\n</p>
+        <p>Здоровья и опять здоровья\n</p>
+        <p>И жизни, доброй и большой!\n</p>
+    </string>
 </resources>
