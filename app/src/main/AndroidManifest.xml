@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lesson17">
         <activity android:name=".HW4.MainActivityHW4"></activity>
+        <activity android:name=".HW5.MainActivityHW5" />
         <activity android:name=".HW3.MainActivityHW3" />
         <activity android:name=".HW2.FlagsV2ActivityHW2" />
         <activity android:name=".HW2.AnimationActivityHW2" />
