@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/hw4_input_kind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standard_margin"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:hint="@string/kind"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/hw4_input_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standard_margin"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:hint="@string/url"
+        android:inputType="textUri"
+        app:layout_constraintTop_toBottomOf="@id/hw4_input_kind" />
+
+    <ImageView
+        android:id="@+id/hw4_preload_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/standard_margin"
+        android:layout_marginBottom="@dimen/standard_margin"
+        app:layout_constraintBottom_toTopOf="@id/hw4_input_description"
+        app:layout_constraintTop_toBottomOf="@id/hw4_input_url" />
+
+    <EditText
+        android:id="@+id/hw4_input_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standard_margin"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:hint="@string/description"
+        android:inputType="textMultiLine"
+        android:lines="1"
+        android:maxLines="6"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@id/hw4_add_snowdrop_btn" />
+
+    <Button
+        android:id="@+id/hw4_add_snowdrop_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standard_margin"
+        android:text="@string/hw4_add_snowdrop"
+        app:layout_constraintBottom_toTopOf="@id/hw4_back_btn" />
+
+    <Button
+        android:id="@+id/hw4_back_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/standard_margin"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:text="@string/hw4_back"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
