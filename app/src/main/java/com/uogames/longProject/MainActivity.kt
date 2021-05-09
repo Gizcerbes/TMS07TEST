@@ -10,6 +10,7 @@ import com.uogames.longProject.HW3.MainActivityHW3
 import com.uogames.longProject.HW4.MainActivityHW4
 import com.uogames.longProject.HW5.MainActivityHW5
 import com.uogames.longProject.HW6.MainActivityHW6
+import com.uogames.longProject.HW7.MainActivityHW7
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,5 +22,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.button4).setOnClickListener { startActivity(Intent(this, MainActivityHW4::class.java)) }
         findViewById<Button>(R.id.button5).setOnClickListener { startActivity(Intent(this, MainActivityHW5::class.java)) }
         findViewById<Button>(R.id.button6).setOnClickListener { startActivity(Intent(this, MainActivityHW6::class.java)) }
+        findViewById<Button>(R.id.button7).setOnClickListener { startActivity(Intent(this, MainActivityHW7::class.java)) }
     }
 }
