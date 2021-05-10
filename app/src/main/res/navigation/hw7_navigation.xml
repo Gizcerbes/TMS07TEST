@@ -7,7 +7,15 @@
     <fragment
         android:id="@+id/recyclerFragment"
         android:name="com.uogames.longProject.HW7.RecyclerFragmentHW7"
-        android:label="RecyclerFragment" />
+        android:label="RecyclerFragment" >
+        <action
+            android:id="@+id/show_createItemFragmentHW7"
+            app:destination="@id/createItemFragmentHW7" />
+    </fragment>
+    <fragment
+        android:id="@+id/createItemFragmentHW7"
+        android:name="com.uogames.longProject.HW7.CreateItemFragmentHW7"
+        android:label="CreateItemFragmentHW7" />
 
 
 </navigation>

@@ -20,7 +20,11 @@ class MainViewModelHW7(application: Application) : AndroidViewModel(application)
 
 
     fun insert(item: Item){
+        myRepository.insert(item)
+    }
 
+    fun getAll(){
+       myRepository.loadAll { _itemList.postValue(it)       }
     }
 
 

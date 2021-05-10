@@ -92,4 +92,8 @@
         <p>Здоровья и опять здоровья\n</p>
         <p>И жизни, доброй и большой!\n</p>
     </string>
+    <string name="hw7_create_item">create item</string>
+    <string name="participant">Participant</string>
+    <string name="start_pay">Start pay</string>
+    <string name="error_not_number">Error. It is not number</string>
 </resources>

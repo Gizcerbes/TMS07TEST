@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import com.uogames.longProject.HW7.MainViewModelHW7
@@ -23,9 +24,8 @@ class RecyclerAdapterHW7(private val viewModel: MainViewModelHW7) :
 
             Picasso.get().load(item.image).into(imageItem)
             nameItem.text = item.name
-            betItem.text = String.format("%0.2f parrots", item.currentPay)
+            betItem.text = String.format("%.2f parrots", item.currentPay)
             participant.text = item.currentParticipant
-
             itemView.setOnClickListener {
 
             }
@@ -39,7 +39,7 @@ class RecyclerAdapterHW7(private val viewModel: MainViewModelHW7) :
     }
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
-        val let = viewModel.itemList.value?.get(position)?.let { it -> holder.setData(it) }
+        viewModel.itemList.value?.get(position)?.let { it -> holder.setData(it) }
     }
 
     override fun getItemCount(): Int {

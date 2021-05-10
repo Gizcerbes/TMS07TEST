@@ -22,4 +22,16 @@ class MyRepository(
         ioScope.launch { block(withContext(Dispatchers.IO) { dao.getAll() }) }
     }
 
+    fun delete(item: Item) {
+        ioScope.launch { dao.delete(item) }
+    }
+
+    fun update(item: Item) {
+        ioScope.launch { dao.update(item) }
+    }
+
+    fun fiendItem(itemName: String, block: (List<Item>) -> Unit) {
+        ioScope.launch { block(withContext(Dispatchers.IO) { dao.fiendItem(itemName) }) }
+    }
+
 }
