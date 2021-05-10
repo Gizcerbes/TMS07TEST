@@ -31,11 +31,13 @@ class RecyclerFragmentHW7 : Fragment() {
         val recycler = view.findViewById<RecyclerView>(R.id.hw7_recycler)
         val createButton = view.findViewById<Button>(R.id.hw7_create_item)
 
+        val adapter = RecyclerAdapterHW7(viewModel)
+        recycler.adapter = adapter
         viewModel.getAll()
         viewModel.itemList.observe(requireActivity()){
-            Toast.makeText(view.context, it.size.toString(), Toast.LENGTH_SHORT).show()
+            adapter.notifyDataSetChanged()
         }
-        recycler.adapter = RecyclerAdapterHW7(viewModel)
+
         createButton.setOnClickListener { findNavController().navigate(R.id.show_createItemFragmentHW7) }
 
 
