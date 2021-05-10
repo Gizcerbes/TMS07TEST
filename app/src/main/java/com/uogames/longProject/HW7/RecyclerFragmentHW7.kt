@@ -6,16 +6,21 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
+import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.textfield.TextInputLayout
 import com.uogames.longProject.HW7.adapter.RecyclerAdapterHW7
 import com.uogames.longProject.R
 
 class RecyclerFragmentHW7 : Fragment() {
 
-    private val viewModel by lazy { ViewModelProvider.AndroidViewModelFactory(requireActivity().application).create(MainViewModelHW7::class.java) }
+    private val viewModel by lazy {
+        ViewModelProvider.AndroidViewModelFactory(requireActivity().application)
+            .create(MainViewModelHW7::class.java)
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -30,16 +35,21 @@ class RecyclerFragmentHW7 : Fragment() {
 
         val recycler = view.findViewById<RecyclerView>(R.id.hw7_recycler)
         val createButton = view.findViewById<Button>(R.id.hw7_create_item)
+        val fiendItem = view.findViewById<TextInputLayout>(R.id.textField_hw7)
 
         val adapter = RecyclerAdapterHW7(viewModel)
         recycler.adapter = adapter
         viewModel.getAll()
-        viewModel.itemList.observe(requireActivity()){
+        viewModel.itemList.observe(requireActivity()) {
             adapter.notifyDataSetChanged()
         }
 
         createButton.setOnClickListener { findNavController().navigate(R.id.show_createItemFragmentHW7) }
 
+        fiendItem.editText?.addTextChangedListener {
+            if (!it.isNullOrEmpty()) viewModel.fiendItem(it.toString())
+            else viewModel.getAll()
+        }
 
     }
 

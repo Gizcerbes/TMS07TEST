@@ -18,7 +18,7 @@ interface ItemDAO {
     @Query("SELECT * FROM items_table")
     suspend fun getAll(): List<Item>
 
-    @Query("SELECT * FROM items_table WHERE name == '%'+:nameItems+'%'")
+    @Query("SELECT * FROM items_table WHERE name LIKE '%' || :nameItems || '%'")
     suspend fun fiendItem(nameItems: String): List<Item>
 
 }

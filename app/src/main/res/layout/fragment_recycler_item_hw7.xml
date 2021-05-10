@@ -22,7 +22,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@id/hw7_image_view"
         android:textStyle="bold"
-        android:textSize="@dimen/standart_text"
+        android:textSize="@dimen/standard_text"
         android:maxLines="1"/>
 
     <TextView

@@ -33,24 +33,28 @@ class CreateItemFragmentHW7 : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val participantInput = view.findViewById<TextInputLayout>(R.id.hw7_participant_input)
+        val nameItem = view.findViewById<TextInputLayout>(R.id.hw7_name_item)
         val urlImage = view.findViewById<TextInputLayout>(R.id.hw7_url_image)
         val description = view.findViewById<TextInputLayout>(R.id.hw7_description)
         val startPay = view.findViewById<TextInputLayout>(R.id.hw7_start_pay)
         val createButton = view.findViewById<Button>(R.id.hw7_create_item)
 
         createButton.setOnClickListener {
+            checkEmpty(nameItem)
             checkEmpty(participantInput)
             checkEmpty(urlImage)
             checkEmpty(description)
             checkNumber(startPay)
-            if (participantInput.isErrorEnabled ||
+            if (
+                nameItem.isErrorEnabled ||
+                participantInput.isErrorEnabled ||
                 urlImage.isErrorEnabled ||
                 description.isErrorEnabled ||
                 startPay.isErrorEnabled
             ) return@setOnClickListener
 
-            val item: Item = Item(
-                participantInput.editText?.text.toString(),
+            val item = Item(
+                nameItem.editText?.text.toString(),
                 description.editText?.text.toString(),
                 urlImage.editText?.text.toString(),
                 Date().time,

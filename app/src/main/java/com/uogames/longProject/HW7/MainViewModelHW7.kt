@@ -27,6 +27,10 @@ class MainViewModelHW7(application: Application) : AndroidViewModel(application)
        myRepository.loadAll { _itemList.postValue(it)       }
     }
 
+    fun fiendItem(string: String){
+        myRepository.fiendItem(string){ _itemList.postValue(it)}
+    }
+
 
 
 
