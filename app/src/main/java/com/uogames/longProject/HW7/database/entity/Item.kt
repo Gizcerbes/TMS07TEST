@@ -10,16 +10,16 @@ data class Item(
     val image: String,
     val dateOpen: Long,
     val startPay: Double,
-    var currentParticipant: String
+    var currentParticipant: String,
+    private var currentPay: Double = startPay
 ) {
     @PrimaryKey(autoGenerate = true)
     var id: Int? = null
 
-    var currentPay: Double = startPay
-    get() = field
+    fun getCurrentPay(): Double = currentPay
 
-    fun setBet(participant:String, pay: Double){
-        if (pay > currentPay){
+    fun setBet(participant: String, pay: Double) {
+        if (pay > currentPay) {
             currentPay = pay
             currentParticipant = participant
         }

@@ -12,7 +12,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:orientation="vertical"
             android:paddingEnd="7dp">
 
@@ -40,6 +40,17 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
+                    android:id="@+id/tv_coast"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/standard_margin"
+                    android:layout_marginTop="@dimen/standard_margin"
+                    android:gravity="end"
+                    android:text="@string/current_coast"
+                    app:layout_constraintStart_toEndOf="@id/hw7_image_view"
+                    app:layout_constraintTop_toBottomOf="@id/hw7_name_item" />
+
+                <TextView
                     android:id="@+id/hw7_current_pay"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -47,8 +58,19 @@
                     android:layout_marginTop="@dimen/standard_margin"
                     android:gravity="end"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@id/hw7_image_view"
+                    app:layout_constraintStart_toEndOf="@id/tv_coast"
                     app:layout_constraintTop_toBottomOf="@id/hw7_name_item" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/standard_margin"
+                    android:layout_marginTop="@dimen/standard_margin"
+                    android:gravity="end"
+                    android:text="@string/date"
+                    app:layout_constraintStart_toEndOf="@id/hw7_image_view"
+                    app:layout_constraintTop_toBottomOf="@id/hw7_current_pay" />
 
                 <TextView
                     android:id="@+id/hw7_date_open"
@@ -58,9 +80,19 @@
                     android:layout_marginTop="@dimen/standard_margin"
                     android:gravity="end"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@id/hw7_image_view"
+                    app:layout_constraintStart_toEndOf="@id/date"
                     app:layout_constraintTop_toBottomOf="@id/hw7_current_pay" />
 
+                <TextView
+                    android:id="@+id/hw7_leader"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/standard_margin"
+                    android:layout_marginTop="@dimen/standard_margin"
+                    android:gravity="end"
+                    android:text="@string/leader"
+                    app:layout_constraintStart_toEndOf="@id/hw7_image_view"
+                    app:layout_constraintTop_toBottomOf="@id/hw7_date_open" />
 
                 <TextView
                     android:id="@+id/hw7_current_participant"
@@ -70,16 +102,15 @@
                     android:layout_marginTop="@dimen/standard_margin"
                     android:gravity="end"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@id/hw7_image_view"
+                    app:layout_constraintStart_toEndOf="@id/hw7_leader"
                     app:layout_constraintTop_toBottomOf="@id/hw7_date_open" />
 
 
                 <TextView
                     android:id="@+id/hw7_description"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_marginTop="@dimen/standard_margin"
-                    android:gravity="end"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/hw7_image_view" />
@@ -87,21 +118,61 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/hw7_my_pay"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/standard_margin"
+                    android:layout_marginBottom="@dimen/standard_margin"
+                    android:hint="@string/ost"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/hw7_my_name">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/hw7_my_name"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/standard_margin"
+                    android:layout_marginBottom="@dimen/standard_margin"
+                    android:hint="@string/my_name"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/hw7_my_pay"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Button
+                android:layout_marginTop="16dp"
+                android:id="@+id/hw7_pay"
+                android:text="@string/bet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
         </LinearLayout>
     </ScrollView>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/hw7_my_pay"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/name_item"
-        app:layout_constraintBottom_toBottomOf="parent">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-    </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

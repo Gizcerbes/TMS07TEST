@@ -16,10 +16,7 @@ import java.util.*
 
 class CreateItemFragmentHW7 : Fragment() {
 
-    private val viewModel by lazy {
-        ViewModelProvider.AndroidViewModelFactory(requireActivity().application)
-            .create(MainViewModelHW7::class.java)
-    }
+    private val databaseModel by lazy { ViewModelProvider.AndroidViewModelFactory(requireActivity().application).create(DatabaseViewModelHW7::class.java) }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -46,11 +43,11 @@ class CreateItemFragmentHW7 : Fragment() {
             checkEmpty(description)
             checkNumber(startPay)
             if (
-                nameItem.isErrorEnabled ||
-                participantInput.isErrorEnabled ||
-                urlImage.isErrorEnabled ||
-                description.isErrorEnabled ||
-                startPay.isErrorEnabled
+                !nameItem.error.isNullOrEmpty() ||
+                !participantInput.error.isNullOrEmpty() ||
+                !urlImage.error.isNullOrEmpty() ||
+                !description.error.isNullOrEmpty() ||
+                !startPay.error.isNullOrEmpty()
             ) return@setOnClickListener
 
             val item = Item(
@@ -61,7 +58,7 @@ class CreateItemFragmentHW7 : Fragment() {
                 startPay.editText?.text.toString().toDouble(),
                 participantInput.editText?.text.toString()
             )
-            viewModel.insert(item)
+            databaseModel?.insert(item)
             findNavController().popBackStack()
         }
     }

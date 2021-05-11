@@ -11,11 +11,18 @@
         <action
             android:id="@+id/show_createItemFragmentHW7"
             app:destination="@id/createItemFragmentHW7" />
+        <action
+            android:id="@+id/show_fragmentShowItemHW7"
+            app:destination="@id/fragmentShowItemHW7" />
     </fragment>
     <fragment
         android:id="@+id/createItemFragmentHW7"
         android:name="com.uogames.longProject.HW7.CreateItemFragmentHW7"
         android:label="CreateItemFragmentHW7" />
+    <fragment
+        android:id="@+id/fragmentShowItemHW7"
+        android:name="com.uogames.longProject.HW7.ShowItemFragmentHW7"
+        android:label="FragmentShowItemHW7" />
 
 
 </navigation>

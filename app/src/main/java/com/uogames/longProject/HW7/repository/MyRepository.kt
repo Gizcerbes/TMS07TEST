@@ -34,4 +34,8 @@ class MyRepository(
         ioScope.launch { block(withContext(Dispatchers.IO) { dao.fiendItem(itemName) }) }
     }
 
+    fun fiendById(id: Int, block: (List<Item>) -> Unit) {
+        ioScope.launch { block(withContext(Dispatchers.IO) { dao.getItemById(id) }) }
+    }
+
 }

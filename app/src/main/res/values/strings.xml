@@ -97,4 +97,11 @@
     <string name="start_pay">Start pay</string>
     <string name="error_not_number">Error. It is not number</string>
     <string name="name_item">Name Item</string>
+    <string name="my_name">My name</string>
+    <string name="ost">Сost</string>
+    <string name="bet">bet</string>
+    <string name="error_should_be_more_than">Error. Should be more than</string>
+    <string name="current_coast">Current Coast</string>
+    <string name="leader">Leader</string>
+    <string name="date">Date</string>
 </resources>
