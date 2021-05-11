@@ -12,7 +12,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.textfield.TextInputLayout
 import com.squareup.picasso.Picasso
-import com.uogames.longProject.HW7.database.entity.Item
 import com.uogames.longProject.R
 import java.lang.Exception
 import java.util.*
