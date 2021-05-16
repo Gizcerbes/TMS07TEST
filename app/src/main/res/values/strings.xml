@@ -8,6 +8,7 @@
     <string name="HOME5">HOME 5</string>
     <string name="HOME6">HOME 6</string>
     <string name="HOME7">HOME 7</string>
+    <string name="HOME8">HOME 8</string>
     <string name="hw1_load_image">Load Image</string>
     <string name="open_shared_canvas">open shared canvas</string>
     <string name="hw1_set_pixel">SET PIXEL</string>
@@ -104,4 +105,7 @@
     <string name="current_coast">Current Coast</string>
     <string name="leader">Leader</string>
     <string name="date">Date</string>
+    <string name="link_get_logo_crypto">https://s2.coinmarketcap.com/static/img/coins/64x64/</string>
+    <string name="png_format">.png</string>
+    <string name="link_crypto_trend">https://s3.coinmarketcap.com/generated/sparklines/web/7d/usd/</string>
 </resources>
