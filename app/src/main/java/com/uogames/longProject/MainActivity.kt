@@ -12,6 +12,7 @@ import com.uogames.longProject.HW5.MainActivityHW5
 import com.uogames.longProject.HW6.MainActivityHW6
 import com.uogames.longProject.HW7.MainActivityHW7
 import com.uogames.longProject.HW8.MainActivityHW8
+import com.uogames.longProject.HW9.MainActivityHW9
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
