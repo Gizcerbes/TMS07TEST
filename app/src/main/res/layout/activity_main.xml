@@ -74,6 +74,12 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="17dp"
                 android:text="@string/HOME8" />
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="17dp"
+                android:text="@string/HOME9" />
 
         </LinearLayout>
     </ScrollView>

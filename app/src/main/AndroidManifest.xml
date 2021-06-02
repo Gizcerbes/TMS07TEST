@@ -3,8 +3,10 @@
     package="com.uogames.longProject">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lesson17">
-        <activity android:name=".HW8.MainActivityHW8"></activity>
+        <activity android:name=".HW9.MainActivityHW9"/>
+        <activity android:name=".HW8.MainActivityHW8" />
         <activity android:name=".HW7.MainActivityHW7" />
         <activity android:name=".HW4.MainActivityHW4" />
         <activity android:name=".HW5.MainActivityHW5" />
@@ -33,6 +36,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".HW1.MainActivityHW1" />
+
+        <service android:name=".HW9.AdviceService"/>
+        <service android:name=".HW9.ForegroundServiceHW9"/>
+
     </application>
 
 </manifest>
