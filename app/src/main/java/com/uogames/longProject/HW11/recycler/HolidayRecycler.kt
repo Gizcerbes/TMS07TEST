@@ -38,10 +38,6 @@ class HolidayRecycler(layout: Int, items: List<Countries.Country>) :
             info.apply { visibility = View.INVISIBLE }
             progress.apply { visibility = View.VISIBLE }
 
-            Log.e("tag", any.code)
-            Log.e("tag", mouthFormat.format(d))
-            Log.e("tag", dayFormat.format(d))
-
             HolidaysRepository().loadFirstHoliday(
                 any.code,
                 "2020",
@@ -68,7 +64,6 @@ class HolidayRecycler(layout: Int, items: List<Countries.Country>) :
                         }
                     }
                 }, {
-                    Log.e("tag", it.localizedMessage.toString())
                 })
 
         }

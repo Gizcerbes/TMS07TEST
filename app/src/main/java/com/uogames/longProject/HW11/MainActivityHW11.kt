@@ -28,11 +28,9 @@ class MainActivityHW11 : AppCompatActivity() {
             .subscribe ({
                 it?.let {
                     val recycler = findViewById<RecyclerView>(R.id.recycler_hw11)
-                    Log.e("tag", it.countries.size.toString())
                     recycler.adapter = HolidayRecycler(R.layout.fragment_recycler_item_holiday, it.countries)
                 }
             },{
-                Log.e("tag", it.localizedMessage.toString())
             })
 
     }
