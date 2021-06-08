@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lesson17">
-        <activity android:name=".HW9.MainActivityHW9"/>
+        <activity android:name=".HW11.MainActivityHW11"></activity>
+        <activity android:name=".HW9.MainActivityHW9" />
         <activity android:name=".HW8.MainActivityHW8" />
         <activity android:name=".HW7.MainActivityHW7" />
         <activity android:name=".HW4.MainActivityHW4" />
@@ -37,9 +38,8 @@
         </activity>
         <activity android:name=".HW1.MainActivityHW1" />
 
-        <service android:name=".HW9.AdviceService"/>
-        <service android:name=".HW9.ForegroundServiceHW9"/>
-
+        <service android:name=".HW9.AdviceService" />
+        <service android:name=".HW9.ForegroundServiceHW9" />
     </application>
 
 </manifest>
